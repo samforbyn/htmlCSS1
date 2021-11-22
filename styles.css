@@ -1,0 +1,41 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-image: linear-gradient(to right, #468C98, #ADD9F4 );
+line-height:10vh;
+font-size: 1.1em;
+font-family: bahnschrift light;
+}
+
+.header, .bio {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.brandImg {
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .brandImg img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  }
+  
+  .fa{
+      background-image: none;
+      color: rgb(0, 0, 0);
+      opacity: 0.75
+  }
